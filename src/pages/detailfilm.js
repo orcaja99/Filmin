@@ -30,7 +30,6 @@ const DetailFilm =  () => {
             <header className="title">
                 <h1>Detail film</h1>
             </header>
-            <img className="movie-backrop" src={`https://image.tmdb.org/t/p/original${currentMovieDetail ? currentMovieDetail.backdrop_path : ""}`} />
             <div className="wrapper-detail">
               <img className="movie-poster" src={`https://image.tmdb.org/t/p/original${currentMovieDetail ? currentMovieDetail.poster_path : ""}`} />
                 <div className="desk">{currentMovieDetail ? currentMovieDetail.original_title : ""}</div>
