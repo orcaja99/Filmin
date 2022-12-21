@@ -4,11 +4,11 @@ import {getMovieList,getTopratedlist,searchMovie} from "./api";
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { BrowserRouter as Router, Route,useParams,Link } from "react-router-dom";
-import Navbar from './navbar';
+
 
 
 import DetailFilm from './pages/detailfilm';
-import Navbar1 from './navbar';
+import Navbar1 from './navbar/navbar';
 
 
 const Topratednya = () => {

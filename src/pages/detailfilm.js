@@ -5,7 +5,7 @@ import { useState } from 'react';
 import App from "../App";
 import './detailfilm.css';
 import { BrowserRouter as Router, Route,useParams,Link } from "react-router-dom";
-import Navbar1 from "../navbar";
+import Navbar1 from "../navbar/navbar";
 
 
 
